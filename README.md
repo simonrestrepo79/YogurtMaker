@@ -166,6 +166,29 @@ public class Ingredient {
     private Boolean optional;
 }
 
+Fase C: Pruebas Funcionales desde Swagger
+
+Metodo Post:
+
+<img width="1897" height="860" alt="image" src="https://github.com/user-attachments/assets/8e72a605-612f-4256-bf26-f3f34cc100f3" />
+<img width="1891" height="847" alt="image" src="https://github.com/user-attachments/assets/a8db588f-1d49-48c4-b8a3-862ad6f72869" />
+
+nota: Aqui creamos una receta con ID 1 
+
+
+Metodo Get:
+
+<img width="1898" height="611" alt="image" src="https://github.com/user-attachments/assets/5fed27cd-3af7-49bf-aa25-30807edfe67c" />
+<img width="1902" height="875" alt="image" src="https://github.com/user-attachments/assets/ec1b1edf-c30d-4c0b-9462-965cb9f04199" />
+
+nota: En este punto buscamos el ID de la receta creada anteriormente y verificamos que se haya guardado correctamente.
+
+
+Forzar un error:
+
+<img width="1891" height="868" alt="image" src="https://github.com/user-attachments/assets/2160b4f4-ed4c-4542-838c-397515c15e5b" />
+<img width="1897" height="357" alt="image" src="https://github.com/user-attachments/assets/70b04969-05ed-4ef2-9e3f-293dc9e53792" />
+
 
 taller 2 – Diagrama de Clases UML
 
