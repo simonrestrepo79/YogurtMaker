@@ -1,5 +1,7 @@
 Yogurt Maker API es una aplicación que te ayuda a llevar el control de la producción de yogurt. Puedes guardar tus recetas con todos sus ingredientes y parámetros, registrar cada vez que haces un nuevo lote y ir marcando en qué etapa del proceso está (calentamiento, incubación, refrigeración, etc.). Además, te permite registrar las temperaturas durante la producción para asegurarte de que todo va bien, y si algo sale mal, puedes marcar el lote como fallido y anotar el motivo.
 
+Para la base de datos, el proyecto usa H2, que es una base de datos que vive en la memoria del computador mientras la app está corriendo. Esto significa que no necesitas instalar ningún programa externo de base de datos, pero también que cada vez que apagues la app los datos se borran. Es ideal para desarrollo y pruebas, que es exactamente para lo que está pensado este proyecto.
+
 Tecnologías:
 
 Java 21
@@ -47,18 +49,23 @@ xml<dependency>
 Nota: ponemos este codigo en la version para que busque la version compatible de Springdoc con la App.
 
 3. compilamos el proyecto.
+   
 bash./mvnw clean install
+
 ./mvnw spring-boot:run
+
 Verificación 
+
 Tras arrancar la aplicación, accede a Swagger UI en:
 http://localhost:8080/swagger-ui/index.html
+
 en este link te deberia abrir toda la API en el swagger
 
 <img width="1900" height="967" alt="image" src="https://github.com/user-attachments/assets/d3251a09-e93a-43e4-9269-0fecdb2b749c" />
 <img width="1898" height="562" alt="image" src="https://github.com/user-attachments/assets/77a71b48-9beb-412a-ba61-f50a690564f3" />
 <img width="1877" height="750" alt="image" src="https://github.com/user-attachments/assets/43bf1c2c-bf93-4184-9fd4-c7c76cad30ea" />
 
-
+La gente abre este tipo de proyectos en Swagger para probar que la aplicación funciona correctamente en lugar de usar programas externos, Swagger te muestra todos los botones y formularios listos para que puedas enviar información y ver qué te responde la app al instante. Es básicamente una ventana donde puedes llenar datos y verificar que todo lo que programaste esta bien y hace lo que se supone que debe hacer para confirmar que al crear una receta te la guarda bien, que al buscar una que no existe te avisa que no la encontró, o que si mandas datos incorrectos la app los rechaza correctamente.
 
 
 Fase B: Enriquecimiento de la Documentación 
@@ -172,6 +179,10 @@ public class Ingredient {
     @Schema(description = "Indica si el ingrediente es opcional")
     private Boolean optional;
 }
+
+
+La documentacio del proyecto es muy importante ya que con las anotaciones que agregamos cualquier persona que abra Swagger puede leer para qué sirve cada opción, qué información tiene que llenar y qué le va a responder la app tanto si todo sale bien como si algo falla sin necesidad de preguntarle nada al programador que lo hizo.
+
 
 Fase C: Pruebas Funcionales desde Swagger
 
