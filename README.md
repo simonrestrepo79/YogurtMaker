@@ -12,11 +12,15 @@ Maven
 SpringDoc
 
 
-Configuración del Proyecto
-bashgit clone https://github.com/tu-usuario/yogurt-maker.git
-cd yogurt-maker
-./mvnw spring-boot:run
-La aplicación estará disponible en: http://localhost:8080
+Configuración del Proyecto.
+
+bashgit clone https://github.com/simonrestrepo79/YogurtMaker.git.
+
+cd yogurt-maker.
+
+./mvnw spring-boot:run.
+
+La aplicación estará disponible en: http://localhost:8080.
 
 taller 1 – Documentación con SpringDoc OpenAPI
 
