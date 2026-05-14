@@ -73,10 +73,12 @@ No es suficiente con que aparezcan los endpoints; la documentación debe ser des
 @RequestMapping("/api/batches")
 public class YogurtBatchController { ... }
 
+
 @Tag(name = "Recetas", description = "Endpoints para gestionar las recetas de yogurt")
 @RestController
 @RequestMapping("/api/recipes")
 public class RecipeController { ... }
+
 
 @Tag(name = "Monitoreo", description = "Endpoints para monitorear lotes y temperaturas del yogurt")
 @RestController
@@ -104,6 +106,8 @@ public ResponseEntity<MonitoringDTO.Dashboard> getDashboard() { ... }
 3. @ApiResponse: Se documentan al menos dos escenarios por endpoint. uno exitoso (200) y uno de error (400).
 
 Iniciar lote
+
+
 @PostMapping
 @Operation(summary = "Iniciar lote", description = "Crea e inicia un nuevo lote de yogurt basado en una receta")
 @ApiResponses({
@@ -113,6 +117,8 @@ Iniciar lote
 public ResponseEntity<YogurtBatch> startNewBatch(@RequestBody StartBatchRequest request) { ... }
 
 Buscar receta
+
+
 @GetMapping("/search")
 @Operation(summary = "Buscar recetas", description = "Busca recetas que coincidan con una palabra clave")
 @ApiResponses({
@@ -122,6 +128,8 @@ Buscar receta
 public ResponseEntity<List<Recipe>> searchRecipes(@RequestParam String keyword) { ... }
 
 Historial de temperatura
+
+
 @GetMapping("/batches/{batchId}/temperature-logs")
 @Operation(summary = "Historial de temperatura", description = "Devuelve registros de temperatura de un lote, con filtro opcional por rango de fechas")
 @ApiResponses({
@@ -132,6 +140,7 @@ public ResponseEntity<List<TemperatureLog>> getTemperatureLogs(...) { ... }
 
 
 4. @Schema: documentan cada atributo con su descripción en Swagger.
+   
 
 @Entity
 @Table(name = "ingredients")
