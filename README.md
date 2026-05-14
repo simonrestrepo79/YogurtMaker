@@ -2,7 +2,7 @@
 API REST desarrollada con Spring Boot para la gestión de producción de yogurt artesanal. Permite administrar recetas, lotes de producción y productos terminados.
 
 
-Tecnologías
+Tecnologías:
 
 Java 21
 
@@ -17,7 +17,8 @@ Maven
 SpringDoc
 
 
-Configuración del Proyecto.
+
+Configuración del Proyecto:
 
 bashgit clone https://github.com/simonrestrepo79/YogurtMaker.git.
 
@@ -29,9 +30,11 @@ La aplicación estará disponible en: http://localhost:8080.
 
 taller 1 – Documentación con SpringDoc OpenAPI
 
+
 Fase A: Configuración de Dependencias
 
 1. Identificar la dependencia correcta para Spring Boot 3.x.
+   
 2. Añadir la dependencia en pom.xml
    
 xml<dependency>
