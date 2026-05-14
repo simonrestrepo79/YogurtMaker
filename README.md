@@ -48,7 +48,11 @@ Tras arrancar la aplicación, accede a Swagger UI en:
 http://localhost:8080/swagger-ui/index.html
 en este link te deberia abrir toda la API en el swagger
 
-<img width="1022" height="507" alt="image" src="https://github.com/user-attachments/assets/54270787-0605-4c51-8aad-382ded2a69dc" />
+<img width="1900" height="967" alt="image" src="https://github.com/user-attachments/assets/d3251a09-e93a-43e4-9269-0fecdb2b749c" />
+<img width="1898" height="562" alt="image" src="https://github.com/user-attachments/assets/77a71b48-9beb-412a-ba61-f50a690564f3" />
+<img width="1877" height="750" alt="image" src="https://github.com/user-attachments/assets/43bf1c2c-bf93-4184-9fd4-c7c76cad30ea" />
+
+
 
 
 Fase B: Enriquecimiento de la Documentación 
