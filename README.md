@@ -5,10 +5,15 @@ API REST desarrollada con Spring Boot para la gestión de producción de yogurt 
 Tecnologías
 
 Java 21
+
 Spring Boot 3.x
+
 Spring Data JPA
+
 H2 
+
 Maven
+
 SpringDoc
 
 
