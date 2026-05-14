@@ -253,34 +253,8 @@ classDiagram
     YogurtBatch "1" o-- "*" TemperatureLog
 
     
-Estructura del Proyecto
-yogurt-maker/
-├── src/
-│   └── main/
-│       ├── java/com/yogurt/
-│       │   ├── controller/
-│       │   │   ├── RecetaController.java
-│       │   │   ├── LoteProduccionController.java
-│       │   │   └── ProductoController.java
-│       │   ├── service/
-│       │   │   ├── RecetaService.java
-│       │   │   ├── LoteProduccionService.java
-│       │   │   └── ProductoService.java
-│       │   ├── repository/
-│       │   │   ├── RecetaRepository.java
-│       │   │   ├── LoteProduccionRepository.java
-│       │   │   └── ProductoRepository.java
-│       │   ├── model/
-│       │   │   ├── Receta.java
-│       │   │   ├── LoteProduccion.java
-│       │   │   └── Producto.java
-│       │   └── dto/
-│       │       ├── RecetaDTO.java
-│       │       ├── LoteProduccionDTO.java
-│       │       └── ProductoDTO.java
-│       └── resources/
-│           └── application.properties
-└── pom.xml
+Estructura del Proyecto: 
+
 
 <img width="772" height="602" alt="image" src="https://github.com/user-attachments/assets/419f0fd2-7589-498c-9824-10d82efa617a" />
 <img width="772" height="430" alt="image" src="https://github.com/user-attachments/assets/ca867b84-67c9-480d-903a-87767ece276d" />
