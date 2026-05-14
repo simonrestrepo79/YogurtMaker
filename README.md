@@ -1,6 +1,4 @@
- Yogurt Maker API
-API REST desarrollada con Spring Boot para la gestión de producción de yogurt artesanal. Permite administrar recetas, lotes de producción y productos terminados.
-
+Yogurt Maker API es una aplicación que te ayuda a llevar el control de la producción de yogurt. Puedes guardar tus recetas con todos sus ingredientes y parámetros, registrar cada vez que haces un nuevo lote y ir marcando en qué etapa del proceso está (calentamiento, incubación, refrigeración, etc.). Además, te permite registrar las temperaturas durante la producción para asegurarte de que todo va bien, y si algo sale mal, puedes marcar el lote como fallido y anotar el motivo.
 
 Tecnologías:
 
