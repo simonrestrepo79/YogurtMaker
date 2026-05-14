@@ -199,6 +199,8 @@ Forzar un error:
 <img width="1897" height="357" alt="image" src="https://github.com/user-attachments/assets/70b04969-05ed-4ef2-9e3f-293dc9e53792" />
 
 
+
+
 taller 2 – Diagrama de Clases UML
 
 Diseño del Diagrama: diseñado con Mermaid.js siguiendo estándares UML:
